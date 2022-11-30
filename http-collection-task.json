@@ -1,0 +1,89 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "deno-task",
+  "dateExported": "2022-11-30T18:29:05.921Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "e96637a4-9196-4f7a-8e30-c5d1fa3a1aa0",
+      "colId": "a1ea3425-f627-40c6-b99f-66cb0acdd832",
+      "containerId": "",
+      "name": "Create a new task",
+      "url": "http://localhost:3000/tasks",
+      "method": "POST",
+      "sortNum": 10000,
+      "created": "2022-11-30T18:24:51.787Z",
+      "modified": "2022-11-30T18:24:51.787Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"title\": \"Comprar comida para el gato\",\n  \"description\": \"Ir al super a comprar la comida para el gato antes que se acabe\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "4234fe52-93d2-4098-87a4-d10ee688c0d5",
+      "colId": "a1ea3425-f627-40c6-b99f-66cb0acdd832",
+      "containerId": "",
+      "name": "Get tasks list",
+      "url": "http://localhost:3000/tasks/",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2022-11-30T18:25:43.612Z",
+      "modified": "2022-11-30T18:25:43.612Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "548fa4d1-94cd-44ec-b36f-1b3ab9fc7bc3",
+      "colId": "a1ea3425-f627-40c6-b99f-66cb0acdd832",
+      "containerId": "",
+      "name": "Get task by id",
+      "url": "http://localhost:3000/tasks/63862ca764db3a5353618146",
+      "method": "GET",
+      "sortNum": 25000,
+      "created": "2022-11-30T18:27:34.930Z",
+      "modified": "2022-11-30T18:27:55.788Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "1a7865dc-070d-42ec-85ae-cc0837167180",
+      "colId": "a1ea3425-f627-40c6-b99f-66cb0acdd832",
+      "containerId": "",
+      "name": "Update task",
+      "url": "http://localhost:3000/tasks/63861396d6c97467771c578b",
+      "method": "PUT",
+      "sortNum": 30000,
+      "created": "2022-11-30T18:26:44.582Z",
+      "modified": "2022-11-30T18:26:44.582Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"title\": \"Pepe en la tierra y dios en el cielo\"\n}",
+        "form": []
+      },
+      "tests": []
+    },
+    {
+      "_id": "c9de3811-66bf-4087-a9d2-5da36b7849d6",
+      "colId": "a1ea3425-f627-40c6-b99f-66cb0acdd832",
+      "containerId": "",
+      "name": "Delete task",
+      "url": "http://localhost:3000/tasks/63861396d6c97467771c578b",
+      "method": "DELETE",
+      "sortNum": 40000,
+      "created": "2022-11-30T18:27:05.213Z",
+      "modified": "2022-11-30T18:27:05.213Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    }
+  ]
+}
